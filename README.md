@@ -19,4 +19,4 @@ The game is written in JavaScript and utilizes HTML for user interface elements.
 
 ## Try it out
 
-You can try the game by accessing the demo page, where it's hosted. Have fun guessing Harry Potter characters!
+You can try the game by accessing the demo page, where it's hosted. Have fun guessing Harry Potter characters! https://sabr5840.github.io/20-questions/
