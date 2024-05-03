@@ -1,78 +1,77 @@
 {
-    "question": "Er karakteren en del af Hogwarts?",
+  "question": "Er karakteren en del af Hogwarts?",
+  "yes": {
+    "question": "Er karakteren elev på Hogwarts?",
     "yes": {
-      "question": "Er karakteren elev på Hogwarts?",
+      "question": "Er karakteren en del af Gryffindor-huset?",
       "yes": {
-        "question": "Er karakteren en del af Gryffindor-huset?",
+        "question": "Er karakteren en af 'De Trevenner'?",
         "yes": {
-          "question": "Er karakteren en af 'De Trevenner'?",
-          "yes": {
-            "question": "Er karakteren Harry Potter?",
-            "yes": null,
-            "no": null
-          },
-          "no": {
-            "question": "Er karakteren Hermione Granger?",
-            "yes": null,
-            "no": null
-          }
+          "question": "Er karakteren Harry Potter?",
+          "yes": null,
+          "no": null
         },
         "no": {
-          "question": "Er karakteren Ron Weasley?",
+          "question": "Er karakteren Hermione Granger?",
           "yes": null,
           "no": null
         }
       },
       "no": {
-        "question": "Er karakteren en del af Slytherin-huset?",
-        "yes": {
-          "question": "Er karakteren Draco Malfoy?",
-          "yes": null,
-          "no": null
-        },
-        "no": {
-          "question": "Er karakteren Severus Snape?",
-          "yes": null,
-          "no": null
-        }
+        "question": "Er karakteren Ron Weasley?",
+        "yes": null,
+        "no": null
       }
     },
     "no": {
-      "question": "Er karakteren en del af Ministeriet for Magi?",
+      "question": "Er karakteren en del af Slytherin-huset?",
       "yes": {
-        "question": "Er karakteren en del af Weasley-familien?",
+        "question": "Er karakteren Draco Malfoy?",
+        "yes": null,
+        "no": null
+      },
+      "no": {
+        "question": "Er karakteren Severus Snape?",
+        "yes": null,
+        "no": null
+      }
+    }
+  },
+  "no": {
+    "question": "Er karakteren en del af Ministeriet for Magi?",
+    "yes": {
+      "question": "Er karakteren en del af Weasley-familien?",
+      "yes": {
+        "question": "Er karakteren en af Weasley-søskende?",
         "yes": {
-          "question": "Er karakteren en af Weasley-søskende?",
-          "yes": {
-            "question": "Er karakteren Fred Weasley?",
-            "yes": null,
-            "no": null
-          },
-          "no": {
-            "question": "Er karakteren Arthur Weasley?",
-            "yes": null,
-            "no": null
-          }
+          "question": "Er karakteren Fred Weasley?",
+          "yes": null,
+          "no": null
         },
         "no": {
-          "question": "Er karakteren Dolores Umbridge",
+          "question": "Er karakteren Arthur Weasley?",
           "yes": null,
           "no": null
         }
       },
       "no": {
-        "question": "Er karakteren en del af Dumbledore's Army?",
-        "yes": {
-          "question": "Er karakteren Luna Lovegood?",
-          "yes": null,
-          "no": null
-        },
-        "no": {
-          "question": "Er karakteren Neville Longbottom?",
-          "yes": null,
-          "no": null
-        }
+        "question": "Er karakteren Dolores Umbridge",
+        "yes": null,
+        "no": null
+      }
+    },
+    "no": {
+      "question": "Er karakteren en del af Dumbledore's Army?",
+      "yes": {
+        "question": "Er karakteren Luna Lovegood?",
+        "yes": null,
+        "no": null
+      },
+      "no": {
+        "question": "Er karakteren Neville Longbottom?",
+        "yes": null,
+        "no": null
       }
     }
   }
-  
+}
