@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>20 Questions Game</title>
+    <title>20 Spørgsmål Spil</title>
     <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
-    <h1>20 Questions Game</h1>
+    <h1>20 Spørgsmål Spil</h1>
     <div id="question-container">
         <div id="question"></div>
     </div>
@@ -16,9 +16,15 @@
     <div id="answer-buttons">
         <button id="yes-btn">Ja</button>
         <button id="no-btn">Nej</button>
-    </div>    
+    </div>
+    <div id="input-container" style="display: none;">
+        <input type="text" id="character-input" placeholder="Indtast den korrekte karakter">
+        <input type="text" id="question-input" placeholder="Indtast et nyt spørgsmål">
+        <button id="submit-btn">Gem</button>
+    </div>
+
+    
 <script src="script.js"></script>
 </body>
 
 </html>
-
