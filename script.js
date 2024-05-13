@@ -1,7 +1,7 @@
 const questionContainer = document.getElementById('question-container');
 const answerButtons = document.getElementById('answer-buttons');
 const inputContainer = document.getElementById('input-container');
-const animalInput = document.getElementById('animal-input');
+const characterInput = document.getElementById('character-input');
 const questionInput = document.getElementById('question-input');
 const yesButton = document.getElementById('yes-btn');
 const noButton = document.getElementById('no-btn');
@@ -25,7 +25,7 @@ fetch('tree.json')
             inputContainer.style.display = 'none';
         }
 
-        // Vis inputfelter til at tilføje nyt dyr og spørgsmål
+        // Vis inputfelter til at tilføje ny karakter og spørgsmål
         function displayInputFields() {
             answerButtons.style.display = 'none';
             inputContainer.style.display = 'block';
@@ -43,10 +43,10 @@ fetch('tree.json')
 
         // Lyt efter klik på Gem-knappen
         submitButton.addEventListener('click', () => {
-            const newAnimal = animalInput.value;
+            const newCharacter = characterInput.value;
             const newQuestion = questionInput.value;
             currentNode.question = currentQuestion;
-            currentNode.yes = { question: newQuestion, yes: { question: newAnimal, yes: null, no: null }, no: { question: currentQuestion, yes: null, no: null } };
+            currentNode.yes = { question: newQuestion, yes: { question: newCharacter, yes: null, no: null }, no: { question: currentQuestion, yes: null, no: null } };
             displayQuestion(currentQuestion);
             displayAnswers();
         });
